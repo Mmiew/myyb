@@ -1,0 +1,410 @@
+/* CSS Document */
+body{
+	width: 100%;
+	margin: auto;
+	background-color: #F1F1F2;
+}
+header{
+	
+	margin: auto;
+	display: flow-root;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+.navbar{
+	width: 80%;
+	height: 74px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 18px 
+	
+}
+.nav {
+	width: 80%;
+	height: 74px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 18px;
+}
+.img-head {
+	height: 100%;
+	width: 10%;
+	margin-right: 10%;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.icontop {
+	padding: 8px;	
+}
+li.nav-item {
+	width: 100%;
+}
+.nav-link{
+	font-family: 'Kanit';
+	src: url(Kanit-Light.ttf);
+	font-size: 20px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	background-color: transparent;
+	text-align: center;
+}
+/* .head-banning1 {
+	font-family: 'Segoe UI';
+	src: url(SEGOEUIB.TTF);
+	font-size: 65px;
+	color: white;
+	margin-top: -15%;
+	margin-left: 6px;
+	text-shadow: 5px 5px #A27A61;
+}
+
+.head-banning2 {
+	font-family: 'Segoe UI';
+	src: url(SEGUISB.TTF);
+	font-size: 35px;
+	color: white;
+	margin-top: 20px;
+}
+
+.head-banning3 {
+	font-family: 'Segoe UI';
+	src: url(SEGUILI.TTF);
+	font-size: 15px;
+	color: white;
+	margin-top: 20px;
+} */
+.separator {
+	font-size: 50px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Kanit';
+    src: url(Kanit-Regular.ttf);
+    
+}
+.LogoF {
+	width: 465px;
+	height: 422px;
+	text-align: center;
+	align-items: center;
+
+
+}
+.margin-in {
+	margin-bottom: 1%;
+	border-radius: 20px;
+	width: 834px;
+	height: 44px;
+}
+input[type="file"] {
+	display: none;
+}
+
+.custom-file-upload-2 {
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 6px 12px;
+	cursor: pointer;
+	border-radius: 18px;
+	width: 409px;
+	height: 58px;
+	/* background-color: #6C4D3A; */
+	color: #000;
+	margin-top: 2px;
+	margin-left: 25px;
+}
+.sel {
+    width: 50%;
+    height: 35px;
+    margin-left: 5%;
+}
+.btnn-hire {
+	width: 239px;
+	height: 59px;
+	font-size: 30px;
+	border-radius: 18px;
+	color: white;
+	background-color: #6C4D3A;
+	margin-top: 22px;
+	font-family: 'Segoe UI';
+	src: url(SEGOEUIB.TTF);
+}
+
+.btnn-hire:hover {
+	background-color: white;
+	color: #6C4D3A;
+	transition: .5s;
+	
+}
+.headinput{
+	padding-right: 380px;
+}
+.more{
+	width: 834px;
+	height: 233px;
+	border-radius: 18px;
+}
+.more1{
+	padding-right: 380px;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Kanit';
+    src: url(Kanit-Regular.ttf);
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #B09584;
+}
+
+.separator:not(:empty)::before {
+    margin-right: 1em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: 1em;
+}
+
+li.nav-item {
+	
+	width: 100%;
+}
+
+
+/* small device (mobile 375px and up) */
+@media screen and (min-width: 375px){
+	.LogoF {
+		width: 296px;
+		height: 197px;
+		text-align: center;
+		align-items: center;
+	}
+
+	.img-head {
+
+		width: 40%;
+		/* margin-left: inherit; */
+	}
+
+	.navbar-nav {
+		width: 100%;
+		border-radius: 15px;
+	}
+
+	
+	
+
+	.separator {
+		font-size: 32px;
+		/* display: flex; */
+		align-items: center;
+		text-align: center;
+		margin: 20px;
+		font-family: 'Kanit';
+		src: url(Kanit-Regular.ttf);
+		
+	}
+	.margin-in {
+		margin-bottom: 4%;
+		border-radius: 20px;
+		width: 302px;
+		height: 30px;
+	}
+	.headinput{
+		padding-right: 205px;
+	}
+	.custom-file-upload-2 {
+		border: 1px solid #ccc;
+		display: inline-block;
+		padding: 6px 12px;
+		cursor: pointer;
+		border-radius: 18px;
+		width: 172px;
+		height: 35px;
+		/* background-color: #6C4D3A; */
+		color: #000;
+		margin-top: 2px;
+		margin-left: 25px;
+	}
+	.btnn-hire {
+		width: 175px;
+		height: 40px;
+		font-size: 20px;
+		border-radius: 18px;
+		color: white;
+		background-color:#A38271;
+		margin-top: 22px;
+		font-family: 'Kanit';
+		src: url(Kanit-Regular.ttf);
+
+	}
+	.type{
+		width: 172px;
+		height: 35px;
+		border-radius: 18px;
+	}
+	.more{
+		width: 301px;
+		height: 112px;
+		border-radius: 18px;
+	}
+	.more1{
+		padding-right: 165px;
+	}
+}
+
+/* Medium device (tablet 768px and up) */
+@media screen and (min-width: 768px){
+
+	.img-head {
+		width: 25%;
+		height: 120%;
+	}
+
+	.navbar-nav {
+		width: 100%;
+		border-radius: 15px;
+	}
+
+	.margin-in {
+		margin-bottom: 1%;
+		border-radius: 20px;
+		width: 484px;
+		height: 40px;
+	}
+	.type{
+		width: 234px;
+		height: 40px;
+		border-radius: 18px;
+	}
+	.headinput{
+		padding-right: 385px;
+	}
+	.more{
+		width: 482px;
+		height: 150px;
+		border-radius: 18px;
+	}
+	.more1{
+		padding-right: 363px;
+	}
+	.custom-file-upload-2 {
+		border: 1px solid #ccc;
+		display: inline-block;
+		padding: 6px 12px;
+		cursor: pointer;
+		border-radius: 18px;
+		width: 234px;
+		height: 40px;
+		/* background-color: #6C4D3A; */
+		color: #000;
+		margin-top: 2px;
+		margin-left: 25px;
+	}
+	.btnn-hire {
+		width: 175px;
+		height: 40px;
+		font-size: 30px;
+		border-radius: 18px;
+		color: white;
+		background-color:#A38271;
+		margin-top: 22px;
+		font-family: 'Segoe UI';
+		src: url(SEGOEUIB.TTF);
+	}
+	
+	.btnn-hire:hover {
+		background-color: white;
+		color: #6C4D3A;
+		transition: .5s;
+		
+	}
+	.LogoF {
+		width: 30%;
+		height: 100%;
+		float: left;
+	}
+	.sel {
+		width: 200px;
+	}
+	
+}
+/* Large devices (desktop 1024px and up) */
+@media screen and (min-width: 1024px){
+	.img-head {
+		width: 10%;
+	}
+
+	.navbar-nav {
+		width: 100%;
+		border-radius: 15px;
+	}
+
+	.icontop {
+		padding: 8px;
+	}
+	
+	.margin-in {
+		margin-bottom: 1%;
+		border-radius: 20px;
+		width: 834px;
+		height: 44px;
+	}
+	.type{
+		width: 409px;
+		height: 58px;
+		border-radius: 18px;
+	}
+	.headinput{
+		padding-right: 720px;
+	}
+	.more{
+		width: 834px;
+		height: 233px;
+		border-radius: 18px;
+	}
+	.more1{
+		padding-right: 700px;
+	}
+	.btnn-hire {
+		width: 180px;
+		height: 47px;
+		font-size: 20px;
+		border-radius: 18px;
+		color: white;
+		background-color:#A38271;
+		margin-top: 22px;
+		font-family: 'Kanit';
+		src: url(Kanit-Regular.ttf);
+	}
+
+	.btnn-hire:hover {
+		background-color: white;
+		color: #6C4D3A;
+		transition: .5s;
+		
+	}
+	.sel{
+		width: 500px;
+	}
+	.LogoF {
+		width: 40%;
+		height: 100%;
+		float: left;
+	}
+}

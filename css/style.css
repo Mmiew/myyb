@@ -1,0 +1,1204 @@
+/* CSS Document */
+body{
+	width: 100%;
+	margin: auto;
+}
+header{
+
+
+	background: url("../images/banner01.png");
+	/* background: url("../images/banner.png"); */
+	margin: auto;
+	display: flow-root;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+
+.navbar{
+	width: 80%;
+	height: 74px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 18px 
+	
+}
+.nav {
+	width: 80%;
+	height: 74px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 18px;
+}
+.img-head {
+	height: 100%;
+	width: 15%;
+	margin-right: 10%;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.nav-link{
+	font-family: 'Kanit';
+	src: url(Kanit-Light.ttf);
+	font-size: 20px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.head-banning1 {
+	font-family: 'Segoe UI';
+	src: url(SEGOEUIB.TTF);
+	font-size: 65px;
+	color: white;
+	margin-top: -15%;
+	margin-left: 6px;
+	text-shadow: 5px 5px #A27A61;
+}
+
+.head-banning2 {
+	font-family: 'Segoe UI';
+	src: url(SEGUISB.TTF);
+	font-size: 35px;
+	color: white;
+	margin-top: 20px;
+}
+
+.head-banning3 {
+	font-family: 'Segoe UI';
+	src: url(SEGUILI.TTF);
+	font-size: 15px;
+	color: white;
+	margin-top: 20px;
+	}
+
+.icontop {
+	padding: 8px;
+	
+}
+li.nav-item {
+	
+	width: 100%;
+}
+
+.t-namechat{
+	font-family: 'Kanit';
+	src: url(Kanit-Light.ttf);
+	font-size: 17px;
+}
+
+.chat-room{
+
+	height: 100%;
+	margin: auto;
+	background-color: #F0EAE6;
+	display: flow-root;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  font-family: 'Kanit';
+  src: url(Kanit-Regular.ttf);
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 2px solid #B09584;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 1em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 1em;
+}
+
+.p-banner {
+	margin-top: 15%;
+	margin-left: 3%;
+	width: 45%;
+}
+.btn-hire{
+	
+	border-radius: 18px;
+	color: white;
+	background-color: #6C4D3A;
+	margin-top: 22px;
+	font-family: 'Segoe UI';
+	src: url(SEGOEUIB.TTF);
+}
+
+.btn-hire:hover {
+	background-color: white;
+	color: #6C4D3A;
+	transition: .5s;
+}
+
+.btn-schedule{
+	
+	border-radius: 18px;
+	color: #A27A61;
+	background-color: white;
+	font-family: 'Segoe UI';
+	src: url(SEGOEUIB.TTF);
+}
+
+.btn-schedule:hover {
+	background-color: #6C4D3A;
+	color: white;
+	transition: .5s;
+}
+
+.divname-in{
+	margin: auto;
+}
+.in-name{
+	    background-color: transparent;
+	    border-radius: 18px;
+		border-color: #6C4D3A;
+		height: 38px;
+		width: 239px;
+		margin-inline: 10px;
+}
+input[type="file"] {
+	display: none;
+}
+
+.custom-file-upload {
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 6px 12px;
+	cursor: pointer;
+	border-radius: 18px;
+	width: 240px;
+	height: 38px;
+	background-color: #6C4D3A;
+	color: white;
+	margin-top: 2px;
+	margin-left: 25px;
+}
+
+.live-img{
+	float: left;
+	padding: 2%;
+	
+}
+.live-name{
+	
+	border: 1px solid black;
+	float: left;
+	
+}
+.live-chat{
+	
+	border: 1px solid black;
+	float: left;
+	
+}
+.in-chat{
+	width: 65%;
+	height: 40px;
+	border-radius: 18px;
+	margin: 5%;
+}
+.icon-up{
+	
+		float: left;
+		margin-block: 1%;
+	
+}
+.line {
+	height: 20px;
+	background-color: #ffffff;
+}
+
+.head-do{
+	font-family: 'Kanit';
+	src: url(Kanit-Regular.ttf);
+	font-size: 50px;
+}
+
+.head-do2 {
+	font-family: 'Kanit';
+	src: url(Kanit-Light.ttf);
+	font-size: 20px;
+}
+
+.profile{
+	height: 100%;
+	background-color: #F0EAE6;
+	display: flow-root;
+}
+.profile-h{
+	margin-block: 1%;
+}
+.img-h{
+	background: white;
+	border: 1px solid black;
+	width: 135px;
+	height: 135px;
+	border-radius: 70px;
+	box-shadow: 5px 10px;
+	padding: 25px 0;
+}
+
+.head-ac{
+	font-family: 'Kanit';
+	src: url(Kanit-bold.ttf);
+	font-size: 22px;
+}
+
+.head-ac2{
+	font-family: 'Kanit';
+	src: url(Kanit-Regular.ttf);
+	font-size: 15px;
+	width: 80%;
+}
+.img-p-w{
+	width: 70%;
+}
+.profileimg-h{
+	margin-block: 5%;
+	height: 100%;
+	width: 100%;
+	display: flow-root;
+		
+}
+.col-profileimg{
+	width: 33%;
+	float: left;
+	
+}
+
+.headt-port{
+	font-family: 'Kanit';
+	src: url(Kanit-bold.ttf);
+	font-size: 50px;
+}
+
+.t-port{
+	font-family: 'Kanit';
+	src: url(Kanit-Light.ttf);
+	font-size: 23px;
+}
+.profile-p-h{
+	margin-top: 20px;
+}
+
+
+.menu-profile {
+    margin: 2%;
+    margin-left: 20%;
+}
+
+.pc-arrival {
+
+	border: 1px solid #707070;
+	margin: 20px;
+}
+
+.profile-pic{
+	overflow: hidden;
+	margin-block: 5%;
+}
+
+.consym{
+	float: left;
+	margin-top: 5%;
+	color: white;
+}
+
+.menter{
+	width: 44%;
+	height: 425px;
+	margin-inline: 3%;
+	
+}
+.bu-v3 {
+	width: 45px;
+	height: 425px;
+	float: left;
+	margin-top: -425px;
+	color: black;
+	background-color: transparent;
+	opacity: 60%;
+	border: 0;
+	font-weight: bolder;
+
+}
+
+.bu-v3:hover {
+	background-color: #CDCBCB;
+	color: #fff;
+	transition: .6s;
+}
+
+.bu-v4 {
+	width: 45px;
+	height: 425px;
+	float: right;
+	margin-top: -425px;
+	color: black;
+	background-color: transparent;
+	opacity: 60%;
+	border: 0;
+	font-weight: bolder;
+}
+
+.bu-v4:hover {
+	background-color: #CDCBCB;
+	color: #fff;
+	transition: .6s;
+}
+
+.img-menter {
+	border: 1px solid black;
+	background: #6C4D3A;
+	width: 154px;
+	height: 154px;
+	border-radius: 90px;
+	padding: 35px 0;
+	color: white;
+
+}
+
+.headt-com{
+	font-family: 'Kanit';
+	src: url(Kanit-bold.ttf);
+	font-size: 50px;
+}
+
+.t-com{
+	font-family: 'Kanit';
+	src: url(Kanit-Light.ttf);
+	font-size: 25px;
+}
+
+
+.menter-p{
+
+	width: 80%;
+	background-color: white;
+	margin-block: 5%;
+	font-family: 'Kanit';
+	src: url(Kanit-Light.ttf);
+	font-size: 15px;
+	padding: 3%;
+	
+}
+
+.t-comment{
+	height: 50%;
+}
+
+.t-by{
+	margin-left: 340px;
+	margin-top: -32px;
+}
+
+.t-by2 {
+	margin-left: 340px;
+	margin-top: -32px;
+}
+
+.section-item1 {
+	list-style: none;
+	margin-bottom: 50px;
+}
+
+.LogoF {
+	width: 640px;
+	height: 472px;
+	text-align: center;
+}
+
+.more1 p {
+	font-family: Tahoma, sans-serif;
+	color: white;
+	background-color: #A38271;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	width: 146px;
+	height: 54px;
+	float: left;
+	margin-top: -300px;
+	margin-left: -565px;
+	border-radius: 20px;
+}
+
+.section-item1 {
+	list-style: none;
+	margin-bottom: 50px;
+}
+
+.t-cont {
+	font-family: 'Kanit';
+	src: url(Kanit-Light.ttf);
+	font-size: 20px;
+}
+
+.btnn-hire {
+
+	border-radius: 18px;
+	color: white;
+	background-color: #6C4D3A;
+	margin-top: 22px;
+	font-family: 'Kanit';
+	src: url(Kanit-Regular.ttf);
+	
+}
+
+.btnn-hire:hover {
+	background-color: white;
+	color: #6C4D3A;
+	transition: .5s;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+	color: #fff;
+	background-color: #6C4D3A;
+	text-align: center;
+}
+
+
+.chat {
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 0px;
+}
+
+.card {
+	height: 500px;
+	background-color: transparent !important;
+}
+
+.contacts_body {
+	padding: 0.75rem 0 !important;
+	overflow-y: auto;
+	white-space: nowrap;
+}
+
+.msg_card_body {
+	overflow-y: auto;
+}
+
+.card-header {
+	border-radius: 15px 15px 0 0 !important;
+	border-bottom: 0 !important;
+}
+
+.card-footer {
+	border-radius: 0 0 15px 15px !important;
+	border-top: 0 !important;
+	
+}
+
+.container {
+	align-content: center;
+}
+
+.type_msg {
+	background-color: rgba(250, 250, 250, 0.767) !important;
+	border: 0 !important;
+	color: white !important;
+	height: 60px !important;
+	overflow-y: auto;
+}
+
+.type_msg:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+.attach_btn {
+	border-radius: 15px 0 0 15px !important;
+	background-color: rgba(114, 79, 56, 0.3) !important;
+	border: 0 !important;
+	color: black !important;
+	cursor: pointer;
+}
+
+.send_btn {
+	border-radius: 0 15px 15px 0 !important;
+	background-color: rgba(114, 79, 56, 0.3) !important;
+	border: 0 !important;
+	color: black !important;
+	cursor: pointer;
+}
+
+.contacts {
+	list-style: none;
+	padding: 0;
+}
+
+.contacts li {
+	width: 100% !important;
+	padding: 5px 10px;
+	margin-bottom: 15px !important;
+}
+
+
+.user_img {
+	height: 60px;
+	width: 60px;
+	border: 1.5px solid #f5f6fa;
+
+}
+
+.user_img_msg {
+	height: 40px;
+	width: 40px;
+	border: 1.5px solid #f5f6fa;
+
+}
+
+.img_cont {
+	position: relative;
+	margin-left: -15px;
+}
+
+.online_icon {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	background-color: #4cd137;
+	border-radius: 50%;
+	bottom: 0.2em;
+	right: 0.4em;
+	border: 1.5px solid white;
+} 
+
+.msg_cotainer {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	border-radius: 25px;
+	background-color: #A38271;
+	padding: 10px;
+	position: relative;
+	color: white;
+}
+
+.msg_cotainer_send {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 10px;
+	border-radius: 25px;
+	background-color: #78e08f;
+	padding: 10px;
+	position: relative;
+}
+
+/* .msg_time {
+	position: absolute;
+	left: 0;
+	bottom: -15px;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 10px;
+} */
+
+.msg_time_send {
+	position: absolute;
+	right: 0;
+	bottom: -15px;
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 10px;
+}
+
+.msg_head {
+	position: relative;
+}
+
+
+
+
+@media(max-width: 576px) {
+	.contacts_card {
+		margin-bottom: 15px !important;
+	}
+}
+
+
+/* small device (mobile 375px and up) */
+@media screen and (min-width: 375px) {
+	.head-banning1 {
+
+		font-size: 35px;
+	}
+
+	.head-banning2 {
+
+		font-size: 18px;
+
+	}
+	
+	.head-banning3 {
+
+		font-size: 8px;
+
+	}
+
+	.img-head {
+		
+		width: 60%;
+		/* margin-left: inherit; */
+	}
+
+	.icontop{
+		text-align: center;
+	}
+
+	
+	.btn-hire {
+
+		font-size: 12px;
+		width: 80%;
+		height: 50%;
+	}
+
+	.btn-schedule {
+		font-size: 12px;
+		width: 80%;
+		height: 50%;
+
+	}
+
+	.menter {
+		width: 80%;
+
+		margin-inline: 10%;
+
+	}
+
+	.head-body {
+		width: 125%;
+	}
+
+	.live-img {
+		width: 100%;
+
+	}
+
+	.live-name {
+
+		display: none;
+
+	}
+
+	.live-chat {
+
+		width: 90%;
+		margin-top: 2%;
+		margin-inline: 5%;
+
+	}
+
+	.in-chat {
+		width: 70%;
+		height: 40px;
+		margin: 5%;
+	}
+	.con {
+		height: 500px;
+		background-color: #BDA696;
+		padding-inline: 15%;
+	}
+
+	.col-profileimg {
+		width: 100%;
+		float: left;
+
+	}
+	.b-footer {
+		background-color: #F1F1F2;
+		width: 100%;
+		height: 100%;
+		display: flow-root;
+	}
+
+	.img-footer {
+		height: 80%;
+		width: 80%;
+	}
+
+	.text-contact {
+		font-family: 'Kanit';
+		src: url(Kanit-ExtraLight.ttf);
+		font-size: 15px;
+		width: 90%;
+		margin: auto;
+	}
+
+	.LogoF {
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		float: left;
+	}
+
+	.in-reg {
+		width: 100%;
+		height: 100%;
+		float: left;
+
+	}
+
+	.custom-file-upload-2 {
+		border: 1px solid #ccc;
+		display: inline-block;
+		padding: 6px 12px;
+		cursor: pointer;
+		border-radius: 18px;
+		width: 40%;
+		height: 38px;
+		background-color: transparent;
+		color: black;
+	}
+
+	.margin-in {
+		margin-bottom: 4%;
+		border-radius: 20px;
+	}
+
+	.sel {
+		width: 50%;
+		height: 35px;
+		margin-left: 5%;
+	}
+	.separator {
+
+		font-size: 35px;
+	}
+	.menter-p {
+
+		width: 300px;
+		height: 50%;
+	}
+
+	/* .col-md-6 {
+
+		margin-top: 15%;
+
+	} */
+
+	.dis-res {
+		display: none;
+	}
+	.tab-pro {
+		display: none;
+	}
+
+	.select-pro {
+		display: block;
+	}
+
+	.pc-arrival {
+
+		width: 90%;
+
+	}
+
+	.navbar-nav{
+		width: 100%;
+		border-radius: 15px;
+		
+	}
+	
+	.nav-link{
+		text-align: center;
+		
+
+	}
+
+	.btnn-hire {
+
+		font-size: 12px;
+		width: 50%;
+		height: 50%;
+		margin-left: 25%;
+		margin-bottom: 50px;
+		font-family: 'Kanit';
+		src: url(Kanit-Regular.ttf);
+	}
+	
+	
+
+}
+
+
+/* Medium device (tablet 768px and up) */
+@media screen and (min-width: 768px) {
+	.head-banning1 {
+
+		font-size: 45px;
+	}
+
+	.head-banning2 {
+
+		font-size: 24px;
+
+	}
+
+	.head-banning3 {
+
+		font-size: 10px;
+
+	}
+
+	.img-head {
+		width: 70%;
+	}
+
+	.btn-hire {
+		width: 35%;
+		height: 60px;
+		font-size: 16px;
+
+	}
+
+	.btn-schedule {
+		font-size: 16px;
+		width: 45%;
+		height: 60px;
+	}
+
+	.menter {
+		width: 80%;
+
+		margin-inline: 10%;
+
+	}
+
+	.head-body {
+		width: 125%;
+	}
+
+	.live-img {
+		width: 100%;
+
+	}
+
+	.live-name {
+
+		width: 90%;
+		margin-inline: 5%;
+		margin-top: 2%;
+		display: block;
+
+	}
+
+	.live-chat {
+
+		width: 90%;
+		margin-top: 2%;
+		margin-inline: 5%;
+
+	}
+
+	.in-chat {
+		width: 80%;
+		height: 40px;
+		margin: 5%;
+	}
+	.con {
+		height: 200px;
+		background-color: #BDA696;
+		padding-inline: 15%;
+	}
+	.col-profileimg {
+		width: 33%;
+		float: left;
+
+	}
+	.b-footer {
+		background-color: #F1F1F2;
+		width: 100%;
+		height: 100%;
+		display: flow-root;
+	}
+
+	.img-footer {
+		height: 50%;
+		width: 80%;
+	}
+
+	.text-contact {
+		font-family: 'Kanit';
+		src: url(Kanit-ExtraLight.ttf);
+		font-size: 15px;
+		width: 100%;
+	}
+
+	.LogoF {
+		width: 45%;
+		height: 472px;
+		text-align: center;
+		float: left;
+	}
+
+	.in-reg {
+		width: 45%;
+		height: 472px;
+		float: left;
+
+	}
+
+	.custom-file-upload-2 {
+		border: 1px solid #ccc;
+		display: inline-block;
+		padding: 6px 12px;
+		cursor: pointer;
+		border-radius: 18px;
+		width: 40%;
+		height: 38px;
+		background-color: transparent;
+		color: black;
+	}
+
+	.margin-in {
+		margin-bottom: 4%;
+		border-radius: 20px;
+	}
+
+	.sel {
+		width: 50%;
+		height: 35px;
+		margin-left: 5%;
+	}
+	.separator {
+
+		font-size: 45px;
+	}
+	.menter-p {
+
+		width: 375px;
+		height: 50%;
+
+	}
+	.dis-res {
+		display: -webkit-inline-box;
+	}
+	.tab-pro {
+		display: none;
+	}
+
+	.select-pro {
+		display: block;
+	}
+
+	.pc-arrival {
+
+		width: 40%;
+	}
+
+	.navbar-nav {
+		width: 100%;
+		border-radius: 15px;
+		
+	}
+
+	.col-md-6{
+		
+		margin-top: 12%;
+	}
+
+
+}
+
+
+
+/* Large devices (desktop 1024px and up) */
+@media screen and (min-width: 1024px) {
+	.head-banning1 {
+
+		font-size: 65px;
+	}
+
+	.head-banning2 {
+
+		font-size: 35px;
+
+	}
+
+	.head-banning3 {
+
+		font-size: 15px;
+
+	}
+
+	.img-head {
+		width: 80%;
+	}
+
+	.navbar-nav {
+		width: 100%;
+		border-radius: 15px;
+		
+	}
+
+	.icontop {
+		padding: 8px;
+	}
+
+	.btn-hire {
+		width: 35%;
+		height: 60px;
+		font-size: 26px;
+
+	}
+
+	.btn-schedule {
+		font-size: 26px;
+		width: 45%;
+		height: 60px;
+	}
+
+	.menter {
+		width: 100%;
+
+		margin-inline: 3%;
+
+	}
+
+	.head-body {
+		width: 100%;
+	}
+
+	.live-img {
+		width: 65%;
+
+	}
+
+	.live-name {
+
+		width: 25%;
+		margin-left: 1%;
+		margin-top: 2%;
+		display: block;
+
+	}
+
+	.live-chat {
+
+		width: 25%;
+		margin-top: 2%;
+		margin-left: 1%;
+
+	}
+
+	.in-chat {
+		width: 65%;
+		height: 40px;
+		margin: 5%;
+	}
+	.con {
+		height: 200px;
+		background-color: #BDA696;
+		padding-inline: 15%;
+	}
+	.col-profileimg {
+		width: 33%;
+		float: left;
+
+	}
+	.b-footer {
+		background-color: #F1F1F2;
+		width: 100%;
+		height: 100%;
+		display: flow-root;
+	}
+
+	.img-footer {
+		height: 80%;
+		width: 80%;
+	}
+
+	.text-contact {
+		font-family: 'Kanit';
+		src: url(Kanit-ExtraLight.ttf);
+		font-size: 15px;
+	}
+
+	.LogoF {
+		width: 45%;
+		height: 472px;
+		text-align: center;
+		float: left;
+	}
+
+	.in-reg {
+		width: 45%;
+		height: 472px;
+		float: left;
+
+	}
+
+	.custom-file-upload-2 {
+		border: 1px solid #ccc;
+		display: inline-block;
+		padding: 6px 12px;
+		cursor: pointer;
+		border-radius: 18px;
+		width: 40%;
+		height: 38px;
+		background-color: transparent;
+		color: black;
+	}
+
+	.margin-in {
+		margin-bottom: 4%;
+		border-radius: 20px;
+	}
+
+	.sel {
+		width: 50%;
+		height: 35px;
+		margin-left: 5%;
+	}
+	.separator {
+		
+		font-size: 55px;
+	}
+	.menter-p {
+
+		width: 80%;
+		height: 70%;
+	}
+	.dis-res {
+		display: -webkit-inline-box;
+	}
+
+	.tab-pro{
+		display: block;
+	}
+
+	.select-pro{
+		display: none;
+	}
+
+	.pc-arrival {
+
+		width: 30%;
+	}
+
+	.col-md-6{
+		margin-top: 2%;
+	}
+	
+}
+

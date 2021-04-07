@@ -1,0 +1,440 @@
+/* CSS Document */
+body {
+    width: 100%;
+    margin: auto;
+    background-color: #F0EAE6;
+}
+
+header {
+
+    margin: auto;
+    display: flow-root;
+    width: 100%;
+    height: 100%;
+    background: unset;
+}
+
+.navbar {
+    width: 80%;
+    height: 74px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 18px
+}
+
+.nav {
+    width: 80%;
+    height: 74px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 18px;
+}
+
+.img-head {
+    height: 100%;
+    width: 70%;
+    margin-right: 10%;
+}
+
+.nav-link {
+    font-family: 'Kanit';
+    src: url(Kanit-Light.ttf);
+    font-size: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.icontop {
+    padding: 8px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Kanit';
+    src: url(Kanit-Regular.ttf);
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #B09584;
+}
+
+.separator:not(:empty)::before {
+    margin-right: 1em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: 1em;
+}
+
+.about{
+    height: 100%;
+    display: flow-root;
+}
+
+
+
+.img-about{
+    float: left;
+    padding: 2%;
+
+}
+.img {
+    width: unset;
+    height: unset;
+}
+
+
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    float: left;
+}
+
+
+.about-ang{
+    font-size: 18px;
+    font-family: 'Kanit';
+    src: url(Kanit-Regular.ttf);
+    line-height: 2.0;
+    font-weight: inherit;
+    padding-inline: 2%;
+    
+}
+
+
+.img-act{
+    width: 90%;
+    height: 100%;
+    
+}
+
+.text{
+    font-family: 'Kanit';
+    src: url(Kanit-Regular.ttf);
+    font-size: 25px;
+    text-align: 50%;
+    margin-top: 30px;
+    
+}
+.btn-con{
+    width: 10%;
+    height: 40px;
+    border-radius: 18px;
+    color: white;
+    background-color: #6C4D3A;
+    margin-top: 22px;
+    font-family: 'Kanit';
+    src: url(Kanit-Regular.ttf);
+    margin-inline: 45%;
+    margin-bottom: 3%;
+}
+
+.btn-con:hover{
+    background-color: white;
+    color: #6C4D3A;
+    transition: .5s;
+}
+
+.workmy{
+    height: 100%;
+}
+
+li.nav-item {
+
+    width: 100%;
+}
+.owl-carousel .owl-item img {
+
+    display: block;
+    width: 100%;
+    margin-inline: 6%;
+
+}
+
+
+
+/* small device (mobile 375px and up) */
+@media screen and (min-width: 375px) {
+
+    .LogoF {
+        width: 296px;
+        height: 197px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .img-head {
+
+        width: 40%;
+        /* margin-left: inherit; */
+    }
+
+    .navbar-nav {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .about-ang {
+
+        font-size: 16px;
+    }
+
+    .actor{
+        width: 80%;
+        margin-inline: 3%;
+        height: 20%;
+        margin-left: 10%;
+        margin-top: 1%;
+        display: flow-root;
+    }
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        float: left;
+        width: 104%;
+    }
+
+    .actor-n{
+        text-align: center;
+        font-family: 'Kanit';
+        src: url(Kanit-Regular.ttf);
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+    .actor-na{       
+        text-align: center;
+        font-family: 'Kanit';
+        src: url(Kanit-Regular.ttf);
+        font-size: 18px;
+        line-height: 1.7;
+    }
+
+    .actor-nt{
+        text-align: center;
+        font-family: 'Kanit';
+        src: url(Kanit-Regular.ttf);
+        font-size: 18px;
+        line-height: 1.7;
+
+    }
+
+    .footer{
+        margin: auto;
+    }
+
+    .textwork {
+        margin: auto;
+        width: 75%;
+    }
+
+    .btn-con{
+        width: 40%;
+        margin-left: 30%;
+    }
+
+     .nav-link {
+         text-align: center;
+    }
+
+    .icontop {
+        text-align: center;
+    }
+
+}
+
+/* Medium device (tablet 768px and up) */
+@media screen and (min-width: 768px) {
+    .img-about {
+        float: left;
+        
+    }
+    
+    .about-ang {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .actor {
+        font-weight: normal;
+        font-family: 'Kanit';
+        src: url(Kanit-Regular.ttf);
+        font-size: 23px;
+        margin-inline: 2%;
+        width: 94%;
+        text-align: center;
+        display: flow-root;
+    
+    }
+
+
+    .actor-n{
+        font-size: 22px;
+        margin-inline: unset;
+        width: 97%;
+        font-family: 'Kanit';
+        src: url(Kanit-Regular.ttf);
+        line-height: 1.7;
+    }
+
+    .actor-na{
+        font-size: 22px;
+        margin-inline: unset;
+        width: 97%;
+        font-family: 'Kanit';
+        src: url(Kanit-Regular.ttf);
+        line-height: 1.7;
+    }
+
+    .actor-nt{
+        font-size: 22px;
+        margin-inline: unset;
+        width: 97%;
+        font-family: 'Kanit';
+        src: url(Kanit-Regular.ttf);
+        line-height: 1.7;
+    }
+
+    .textwork{
+        margin: auto;
+        width: 70%;
+    }
+    .about-img {
+          display: flex;
+          height: 100%;
+          width: 100%;
+
+    }
+
+    
+
+/* Large devices (desktop 1024px and up) */
+@media screen and (min-width: 1024px) {
+
+    .img-head {
+        width: 70%;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .icontop {
+        padding: 8px;
+    }
+
+    .about-ang {
+        font-size: 20px;
+    }
+
+    .about-img {
+        display: flex;
+        height: 100%;
+        width: 30%;
+        float: left;
+    }
+    .about-txt {
+        float: right;
+        width: 70%;
+    }
+
+
+
+    .owl-carousal .owl-item img{
+        display: block;
+        width: 80%;
+    }
+
+   .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 10px;
+        float: left;
+        width: 113%;
+    }
+
+    .actor-n{
+        margin-top: 48%;
+    }
+
+    .actor-na{
+        margin-top: 48%;
+    }
+
+    .actor-nt{
+        margin-top: 48%;
+    }
+    .actor {
+        font-weight: normal;
+        font-family: 'Kanit';
+        src: url(Kanit-Regular.ttf);
+        font-size: 23px;
+        margin-inline: 1%;
+        width: 85%;
+        text-align: center;
+        margin-left: 7%;
+        display: flow-root;
+    }
+    .actor-n {
+        font-family: 'Kanit';
+        src: url(Kanit-Regular.ttf);
+        font-size: 20px;
+        font-weight: inherit;
+        line-height: 1.8;
+        width: 60%;
+        margin-top: 2%;
+        text-align: left;
+        float: right;
+
+    }
+
+    .actor-nt {
+        font-family: 'Kanit';
+        src: url(Kanit-Regular.ttf);
+        font-weight: inherit;
+        font-size: 20px;
+        line-height: 1.7;
+        margin-top: 3%;
+        margin-inline: 1%;
+        text-align: left;
+        width: 60%;
+        float: right;
+    }
+
+    .actor-na {
+        font-family: 'Kanit';
+        src: url(Kanit-Regular.ttf);
+        font-size: 20px;
+        font-weight: inherit;
+        line-height: 2.5;
+        margin-top: 3%;
+        text-align: left;
+        width: 60%;
+        float: right;
+
+    }
+
+    .group-sl{
+        width: 30%;
+        float: left;
+    }
+
+    
+}
+
+}
+
+
+
+
+
